@@ -1,7 +1,7 @@
 begin 
   require 'gosu'
 rescue LoadError
-  puts "oh no, gosu not found! please install it. now exiting"
+  puts "oh no, Gosu not found! please install it. now exiting"
   exit
 end
 load 'player.rb'
