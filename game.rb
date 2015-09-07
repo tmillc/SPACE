@@ -1,4 +1,9 @@
-require 'gosu'
+begin 
+  require 'gosu'
+rescue LoadError
+  puts "oh no, Gosu not found! please install it. now exiting"
+  exit
+end
 load 'player.rb'
 load 'star.rb'
 
